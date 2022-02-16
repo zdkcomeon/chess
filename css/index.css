@@ -1,0 +1,59 @@
+.menu-item-info{
+    flex: 0 0 33%;
+    background-color: #4CAF50;
+}
+.menu-item:nth-child(-n+3){
+    /* border: 1px solid red; */
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+}
+.main-item{
+    margin: 10px;
+}
+.checkerboard{
+    background-color: #4CAF50;
+    flex: 0 1 70%;
+}
+.play-menu *{
+    margin-bottom: 10px;
+}
+.info{
+    padding: 5px;
+    background-color: #C8E6C9;
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+.info-item{
+    padding-top: 15px;
+    flex: 1;
+}
+.info-title{
+    text-align: center;
+}
+.info-name{
+
+    display: flex;
+    justify-content: space-around;
+}
+.info-name *{
+    flex: 1;
+}
+.option{
+    display: flex;
+}
+
+.option *{
+    flex: 1;
+    margin: 10px 5px;
+}
+.info-item{
+    border-bottom: 3px solid #aaa;
+    border-radius: 8px;
+}
+
