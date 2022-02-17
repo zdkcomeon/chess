@@ -18,6 +18,12 @@ body{
     align-items: center;
 
 }
+.chess-kind{
+    background-color: #C8E6C9;
+}
+.fight-kind{
+    background-color: #E57373;
+}
 .main{
     flex: 1;
 }
