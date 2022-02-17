@@ -22,7 +22,7 @@ window.onload = function () {
         ctx.strokeStyle = 'blue';
         // 开始一个新的画笔路径，绘制一个六边形
         ctx.beginPath();
-        // 
+        // 六边形相对中心的六个距离
         var vs = [[0, d], [-w / 2, d / 2], [-w / 2, -d / 2], [0, -d], [w / 2, -d / 2], [w / 2, d / 2]];
         // 绘制六边形
         function one(xo, yo) {
@@ -62,5 +62,3 @@ window.onload = function () {
         console.log('你的浏览器不支持Canvas');
     }
 }
-
-var get
