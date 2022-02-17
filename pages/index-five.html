@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>棋牌类游戏</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <script src="../js/five.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-1 header">
+            <div class="menu-item chess-kind">
+                <span>选择棋种</span>
+                <select>
+                    <option value="Hex">Hex</option>
+                    <option value="NoGo">NoGo</option>
+                    <option value="五子棋">五子棋</option>
+                </select>
+            </div>
+            <div class="menu-item fight-kind">
+                <span>对战方式</span>
+                <input type="radio" name="against-way"> 人人
+                <input type="radio" name="against-way" checked> 人机
+            </div>
+            <div class="menu-item">
+                <input type="button" value="棋谱打印">
+            </div>
+            <div class="menu-item menu-item-info">
+                <span>账户信息</span>
+            </div>
+        </div>
+        <div class="item-1 main">
+            <div class="main-item checkerboard">
+                <canvas id="canvas" style="height: auto; width: auto;">
+                    <p>对不起你的浏览器不支持。。。</p>
+                </canvas>
+            </div>
+            <div class="main-item info">
+                <div class="info-item play-menu">
+                    <div class="info-title">先手方</div>
+                    <div class="info-name">
+                        <span>NAME</span>
+                        <span>此处是先手姓名</span>
+                    </div>
+                    <div class="info-name">
+                        <span>TIME</span>
+                        <span>此处显示行棋时间</span>
+                    </div>
+                    <div class="option">
+                        <input type="button" value="OK">
+                        <input type="button" value="Undo">
+                    </div>
+                </div>
+                <div class="info-item play-menu">
+                    <div class="info-title">先手方</div>
+                    <div class="info-name">
+                        <span>NAME</span>
+                        <span>此处是先手姓名</span>
+                    </div>
+                    <div class="info-name">
+                        <span>TIME</span>
+                        <span>此处显示行棋时间</span>
+                    </div>
+                    <div class="option">
+                        <input type="button" value="OK">
+                        <input type="button" value="Undo">
+                    </div>
+                </div>
+                <div class="info-item chess-manual">
+                    下棋的棋谱
+                </div>
+            </div>
+        </div>
+        <div class="item-1 footer">
+            <div class="footer-content">
+                <p class="copy">Copyright 2014 Bambino. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
